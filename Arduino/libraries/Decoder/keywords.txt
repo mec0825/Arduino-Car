@@ -1,0 +1,11 @@
+Decoder	KEYWORD1
+Motor	KEYWORD1
+Pin	KEYWORD1
+Operation	KEYWORD1
+
+startDecoder	KEYWORD2
+moveBackward	KEYWORD2
+moveForward	KEYWORD2
+turnRight	KEYWORD2
+turnLeft	KEYWORD2
+stop	KEYWORD2

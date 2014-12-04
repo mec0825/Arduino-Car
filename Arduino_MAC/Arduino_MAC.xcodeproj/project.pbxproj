@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6B5FEB4164F59DA00EA5A46 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B5FEB3164F59DA00EA5A46 /* VideoController.m */; };
+		E6E89822164E4780007E9A76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E89821164E4780007E9A76 /* Cocoa.framework */; };
+		E6E8982C164E4780007E9A76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6E8982A164E4780007E9A76 /* InfoPlist.strings */; };
+		E6E8982E164E4780007E9A76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E8982D164E4780007E9A76 /* main.m */; };
+		E6E89832164E4780007E9A76 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E6E89830164E4780007E9A76 /* Credits.rtf */; };
+		E6E89835164E4780007E9A76 /* LFTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E89834164E4780007E9A76 /* LFTAppDelegate.m */; };
+		E6E89838164E4780007E9A76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E89836164E4780007E9A76 /* MainMenu.xib */; };
+		E6E89843164E4809007E9A76 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E89840164E4809007E9A76 /* AsyncSocket.m */; };
+		E6E89844164E4809007E9A76 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E89842164E4809007E9A76 /* AsyncUdpSocket.m */; };
+		E6E89848164E4865007E9A76 /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E89847164E4865007E9A76 /* Socket.m */; };
+		E6E8984A164E49E0007E9A76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E89849164E49E0007E9A76 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6B5FEB2164F59DA00EA5A46 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		E6B5FEB3164F59DA00EA5A46 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		E6B5FEBF164FA6A700EA5A46 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		E6E8981D164E4780007E9A76 /* Arduino_MAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arduino_MAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E89821164E4780007E9A76 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E6E89824164E4780007E9A76 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E6E89825164E4780007E9A76 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E6E89826164E4780007E9A76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6E89829164E4780007E9A76 /* Arduino_MAC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arduino_MAC-Info.plist"; sourceTree = "<group>"; };
+		E6E8982B164E4780007E9A76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6E8982D164E4780007E9A76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6E8982F164E4780007E9A76 /* Arduino_MAC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arduino_MAC-Prefix.pch"; sourceTree = "<group>"; };
+		E6E89831164E4780007E9A76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E6E89833164E4780007E9A76 /* LFTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFTAppDelegate.h; sourceTree = "<group>"; };
+		E6E89834164E4780007E9A76 /* LFTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTAppDelegate.m; sourceTree = "<group>"; };
+		E6E89837164E4780007E9A76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E6E8983F164E4809007E9A76 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		E6E89840164E4809007E9A76 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		E6E89841164E4809007E9A76 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		E6E89842164E4809007E9A76 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		E6E89846164E4865007E9A76 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		E6E89847164E4865007E9A76 /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
+		E6E89849164E49E0007E9A76 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E8981A164E4780007E9A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E8984A164E49E0007E9A76 /* CFNetwork.framework in Frameworks */,
+				E6E89822164E4780007E9A76 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B5FEAB164F553500EA5A46 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E6B5FEBF164FA6A700EA5A46 /* Operation.h */,
+				E6B5FEB2164F59DA00EA5A46 /* VideoController.h */,
+				E6B5FEB3164F59DA00EA5A46 /* VideoController.m */,
+			);
+			path = Interface;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6E89812164E4780007E9A76 = {
+			isa = PBXGroup;
+			children = (
+				E6E89827164E4780007E9A76 /* Arduino_MAC */,
+				E6E89820164E4780007E9A76 /* Frameworks */,
+				E6E8981E164E4780007E9A76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E8981E164E4780007E9A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E8981D164E4780007E9A76 /* Arduino_MAC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E89820164E4780007E9A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E89849164E49E0007E9A76 /* CFNetwork.framework */,
+				E6E89821164E4780007E9A76 /* Cocoa.framework */,
+				E6E89823164E4780007E9A76 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E89823164E4780007E9A76 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E89824164E4780007E9A76 /* AppKit.framework */,
+				E6E89825164E4780007E9A76 /* CoreData.framework */,
+				E6E89826164E4780007E9A76 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E6E89827164E4780007E9A76 /* Arduino_MAC */ = {
+			isa = PBXGroup;
+			children = (
+				E6B5FEAB164F553500EA5A46 /* Interface */,
+				E6E89845164E4857007E9A76 /* Communication */,
+				E6E8983E164E4809007E9A76 /* AsyncSocket */,
+				E6E89833164E4780007E9A76 /* LFTAppDelegate.h */,
+				E6E89834164E4780007E9A76 /* LFTAppDelegate.m */,
+				E6E89836164E4780007E9A76 /* MainMenu.xib */,
+				E6E89828164E4780007E9A76 /* Supporting Files */,
+			);
+			path = Arduino_MAC;
+			sourceTree = "<group>";
+		};
+		E6E89828164E4780007E9A76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E89829164E4780007E9A76 /* Arduino_MAC-Info.plist */,
+				E6E8982A164E4780007E9A76 /* InfoPlist.strings */,
+				E6E8982D164E4780007E9A76 /* main.m */,
+				E6E8982F164E4780007E9A76 /* Arduino_MAC-Prefix.pch */,
+				E6E89830164E4780007E9A76 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6E8983E164E4809007E9A76 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				E6E8983F164E4809007E9A76 /* AsyncSocket.h */,
+				E6E89840164E4809007E9A76 /* AsyncSocket.m */,
+				E6E89841164E4809007E9A76 /* AsyncUdpSocket.h */,
+				E6E89842164E4809007E9A76 /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6E89845164E4857007E9A76 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				E6E89846164E4865007E9A76 /* Socket.h */,
+				E6E89847164E4865007E9A76 /* Socket.m */,
+			);
+			path = Communication;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E8981C164E4780007E9A76 /* Arduino_MAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E8983B164E4780007E9A76 /* Build configuration list for PBXNativeTarget "Arduino_MAC" */;
+			buildPhases = (
+				E6E89819164E4780007E9A76 /* Sources */,
+				E6E8981A164E4780007E9A76 /* Frameworks */,
+				E6E8981B164E4780007E9A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arduino_MAC;
+			productName = Arduino_MAC;
+			productReference = E6E8981D164E4780007E9A76 /* Arduino_MAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E89814164E4780007E9A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LFT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Hiscene;
+			};
+			buildConfigurationList = E6E89817164E4780007E9A76 /* Build configuration list for PBXProject "Arduino_MAC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6E89812164E4780007E9A76;
+			productRefGroup = E6E8981E164E4780007E9A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E8981C164E4780007E9A76 /* Arduino_MAC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E8981B164E4780007E9A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E8982C164E4780007E9A76 /* InfoPlist.strings in Resources */,
+				E6E89832164E4780007E9A76 /* Credits.rtf in Resources */,
+				E6E89838164E4780007E9A76 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E89819164E4780007E9A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E8982E164E4780007E9A76 /* main.m in Sources */,
+				E6E89835164E4780007E9A76 /* LFTAppDelegate.m in Sources */,
+				E6E89843164E4809007E9A76 /* AsyncSocket.m in Sources */,
+				E6E89844164E4809007E9A76 /* AsyncUdpSocket.m in Sources */,
+				E6E89848164E4865007E9A76 /* Socket.m in Sources */,
+				E6B5FEB4164F59DA00EA5A46 /* VideoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6E8982A164E4780007E9A76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E8982B164E4780007E9A76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6E89830164E4780007E9A76 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E89831164E4780007E9A76 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E6E89836164E4780007E9A76 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E89837164E4780007E9A76 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E89839164E4780007E9A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E6E8983A164E4780007E9A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E6E8983C164E4780007E9A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino_MAC/Arduino_MAC-Prefix.pch";
+				INFOPLIST_FILE = "Arduino_MAC/Arduino_MAC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6E8983D164E4780007E9A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arduino_MAC/Arduino_MAC-Prefix.pch";
+				INFOPLIST_FILE = "Arduino_MAC/Arduino_MAC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E89817164E4780007E9A76 /* Build configuration list for PBXProject "Arduino_MAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E89839164E4780007E9A76 /* Debug */,
+				E6E8983A164E4780007E9A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E8983B164E4780007E9A76 /* Build configuration list for PBXNativeTarget "Arduino_MAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E8983C164E4780007E9A76 /* Debug */,
+				E6E8983D164E4780007E9A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E89814164E4780007E9A76 /* Project object */;
+}

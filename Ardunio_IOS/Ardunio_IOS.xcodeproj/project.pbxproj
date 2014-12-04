@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E60EDD15164B5CBB00C490E4 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E60EDD12164B5CBB00C490E4 /* libRscMgrUniv.a */; };
+		E60EDD25164B729C00C490E4 /* MotorController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60EDD24164B729C00C490E4 /* MotorController.m */; };
+		E60EDD41164B8B1A00C490E4 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60EDD40164B8B1A00C490E4 /* ExternalAccessory.framework */; };
+		E6B10540164A0961006C8476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B1053F164A0961006C8476 /* UIKit.framework */; };
+		E6B10542164A0961006C8476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B10541164A0961006C8476 /* Foundation.framework */; };
+		E6B10544164A0961006C8476 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B10543164A0961006C8476 /* CoreGraphics.framework */; };
+		E6B1054A164A0961006C8476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6B10548164A0961006C8476 /* InfoPlist.strings */; };
+		E6B1054C164A0961006C8476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B1054B164A0961006C8476 /* main.m */; };
+		E6B10550164A0961006C8476 /* LFTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B1054F164A0961006C8476 /* LFTAppDelegate.m */; };
+		E6B10552164A0961006C8476 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B10551164A0961006C8476 /* Default.png */; };
+		E6B10554164A0961006C8476 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B10553164A0961006C8476 /* Default@2x.png */; };
+		E6B10556164A0961006C8476 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B10555164A0961006C8476 /* Default-568h@2x.png */; };
+		E6B10560164A114B006C8476 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B1055F164A114B006C8476 /* Data.m */; };
+		E6B5FE9F164F4F6D00EA5A46 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B5FE9E164F4F6D00EA5A46 /* Video.m */; };
+		E6B5FEA1164F4F8100EA5A46 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B5FEA0164F4F8100EA5A46 /* CoreVideo.framework */; };
+		E6B5FEA3164F4F8700EA5A46 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B5FEA2164F4F8700EA5A46 /* CoreMedia.framework */; };
+		E6B5FEA6164F531A00EA5A46 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B5FEA5164F531A00EA5A46 /* VideoController.m */; };
+		E6B5FEC6164FCAD000EA5A46 /* RobotController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B5FEC5164FCAD000EA5A46 /* RobotController.m */; };
+		E6E897DE164E070A007E9A76 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E897DB164E070A007E9A76 /* AsyncSocket.m */; };
+		E6E897DF164E070A007E9A76 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E897DD164E070A007E9A76 /* AsyncUdpSocket.m */; };
+		E6E897E1164E0719007E9A76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E897E0164E0719007E9A76 /* AVFoundation.framework */; };
+		E6E897E3164E0734007E9A76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E897E2164E0734007E9A76 /* CFNetwork.framework */; };
+		E6E897E9164E08B2007E9A76 /* RedparkFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E897E8164E08B2007E9A76 /* RedparkFlow.m */; };
+		E6E897EE164E0B9A007E9A76 /* MotorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E897ED164E0B9A007E9A76 /* MotorViewController.m */; };
+		E6E89811164E41E8007E9A76 /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E89810164E41E8007E9A76 /* Socket.m */; };
+		E6E89861164E7A92007E9A76 /* SenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E89860164E7A92007E9A76 /* SenderController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E60EDD0A164B57AB00C490E4 /* Pin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		E60EDD12164B5CBB00C490E4 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		E60EDD13164B5CBB00C490E4 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		E60EDD14164B5CBB00C490E4 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		E60EDD23164B729C00C490E4 /* MotorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorController.h; sourceTree = "<group>"; };
+		E60EDD24164B729C00C490E4 /* MotorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotorController.m; sourceTree = "<group>"; };
+		E60EDD40164B8B1A00C490E4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		E6B1053B164A0961006C8476 /* Ardunio_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ardunio_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B1053F164A0961006C8476 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6B10541164A0961006C8476 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6B10543164A0961006C8476 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6B10547164A0961006C8476 /* Ardunio_IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ardunio_IOS-Info.plist"; sourceTree = "<group>"; };
+		E6B10549164A0961006C8476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6B1054B164A0961006C8476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6B1054D164A0961006C8476 /* Ardunio_IOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ardunio_IOS-Prefix.pch"; sourceTree = "<group>"; };
+		E6B1054E164A0961006C8476 /* LFTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFTAppDelegate.h; sourceTree = "<group>"; };
+		E6B1054F164A0961006C8476 /* LFTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTAppDelegate.m; sourceTree = "<group>"; };
+		E6B10551164A0961006C8476 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6B10553164A0961006C8476 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E6B10555164A0961006C8476 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E6B1055E164A114B006C8476 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		E6B1055F164A114B006C8476 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		E6B5FE9D164F4F6D00EA5A46 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		E6B5FE9E164F4F6D00EA5A46 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		E6B5FEA0164F4F8100EA5A46 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E6B5FEA2164F4F8700EA5A46 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E6B5FEA4164F531A00EA5A46 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		E6B5FEA5164F531A00EA5A46 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		E6B5FEC4164FCAD000EA5A46 /* RobotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotController.h; sourceTree = "<group>"; };
+		E6B5FEC5164FCAD000EA5A46 /* RobotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotController.m; sourceTree = "<group>"; };
+		E6E897DA164E070A007E9A76 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		E6E897DB164E070A007E9A76 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		E6E897DC164E070A007E9A76 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		E6E897DD164E070A007E9A76 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		E6E897E0164E0719007E9A76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E6E897E2164E0734007E9A76 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E6E897E7164E08B2007E9A76 /* RedparkFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedparkFlow.h; sourceTree = "<group>"; };
+		E6E897E8164E08B2007E9A76 /* RedparkFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedparkFlow.m; sourceTree = "<group>"; };
+		E6E897EC164E0B9A007E9A76 /* MotorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorViewController.h; sourceTree = "<group>"; };
+		E6E897ED164E0B9A007E9A76 /* MotorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotorViewController.m; sourceTree = "<group>"; };
+		E6E897F3164E1881007E9A76 /* Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		E6E8980F164E41E8007E9A76 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		E6E89810164E41E8007E9A76 /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
+		E6E8985F164E7A91007E9A76 /* SenderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenderController.h; sourceTree = "<group>"; };
+		E6E89860164E7A92007E9A76 /* SenderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenderController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B10538164A0961006C8476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B5FEA3164F4F8700EA5A46 /* CoreMedia.framework in Frameworks */,
+				E6B5FEA1164F4F8100EA5A46 /* CoreVideo.framework in Frameworks */,
+				E6E897E3164E0734007E9A76 /* CFNetwork.framework in Frameworks */,
+				E6E897E1164E0719007E9A76 /* AVFoundation.framework in Frameworks */,
+				E60EDD41164B8B1A00C490E4 /* ExternalAccessory.framework in Frameworks */,
+				E6B10540164A0961006C8476 /* UIKit.framework in Frameworks */,
+				E6B10542164A0961006C8476 /* Foundation.framework in Frameworks */,
+				E6B10544164A0961006C8476 /* CoreGraphics.framework in Frameworks */,
+				E60EDD15164B5CBB00C490E4 /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E60EDD11164B5CBB00C490E4 /* RedparkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E60EDD12164B5CBB00C490E4 /* libRscMgrUniv.a */,
+				E60EDD13164B5CBB00C490E4 /* redparkSerial.h */,
+				E60EDD14164B5CBB00C490E4 /* RscMgr.h */,
+			);
+			path = RedparkSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		E60EDD22164B728800C490E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E60EDD23164B729C00C490E4 /* MotorController.h */,
+				E60EDD24164B729C00C490E4 /* MotorController.m */,
+			);
+			path = Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6B10530164A0961006C8476 = {
+			isa = PBXGroup;
+			children = (
+				E6B10545164A0961006C8476 /* Ardunio_IOS */,
+				E6B1053E164A0961006C8476 /* Frameworks */,
+				E6B1053C164A0961006C8476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B1053C164A0961006C8476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B1053B164A0961006C8476 /* Ardunio_IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B1053E164A0961006C8476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B5FEA2164F4F8700EA5A46 /* CoreMedia.framework */,
+				E6B5FEA0164F4F8100EA5A46 /* CoreVideo.framework */,
+				E6E897E2164E0734007E9A76 /* CFNetwork.framework */,
+				E6E897E0164E0719007E9A76 /* AVFoundation.framework */,
+				E60EDD40164B8B1A00C490E4 /* ExternalAccessory.framework */,
+				E6B1053F164A0961006C8476 /* UIKit.framework */,
+				E6B10541164A0961006C8476 /* Foundation.framework */,
+				E6B10543164A0961006C8476 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6B10545164A0961006C8476 /* Ardunio_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				E6B5FE97164F4F0500EA5A46 /* Media */,
+				E6E897D9164E070A007E9A76 /* AsyncSocket */,
+				E60EDD11164B5CBB00C490E4 /* RedparkSDK */,
+				E6E897EB164E0B7D007E9A76 /* Interface */,
+				E6E897D8164E06F0007E9A76 /* Communication */,
+				E6B1055C164A0A0A006C8476 /* Ardunio_Core */,
+				E6B1054E164A0961006C8476 /* LFTAppDelegate.h */,
+				E6B1054F164A0961006C8476 /* LFTAppDelegate.m */,
+				E60EDD22164B728800C490E4 /* Controller */,
+				E6B10546164A0961006C8476 /* Supporting Files */,
+			);
+			path = Ardunio_IOS;
+			sourceTree = "<group>";
+		};
+		E6B10546164A0961006C8476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B10547164A0961006C8476 /* Ardunio_IOS-Info.plist */,
+				E6B10548164A0961006C8476 /* InfoPlist.strings */,
+				E6B1054B164A0961006C8476 /* main.m */,
+				E6B1054D164A0961006C8476 /* Ardunio_IOS-Prefix.pch */,
+				E6B10551164A0961006C8476 /* Default.png */,
+				E6B10553164A0961006C8476 /* Default@2x.png */,
+				E6B10555164A0961006C8476 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6B1055C164A0A0A006C8476 /* Ardunio_Core */ = {
+			isa = PBXGroup;
+			children = (
+				E60EDD0A164B57AB00C490E4 /* Pin.h */,
+				E6B1055E164A114B006C8476 /* Data.h */,
+				E6B1055F164A114B006C8476 /* Data.m */,
+				E6E897F3164E1881007E9A76 /* Operation.h */,
+			);
+			path = Ardunio_Core;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6B5FE97164F4F0500EA5A46 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				E6B5FE9D164F4F6D00EA5A46 /* Video.h */,
+				E6B5FE9E164F4F6D00EA5A46 /* Video.m */,
+			);
+			path = Media;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6E897D8164E06F0007E9A76 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				E6E897E7164E08B2007E9A76 /* RedparkFlow.h */,
+				E6E897E8164E08B2007E9A76 /* RedparkFlow.m */,
+				E6E8980F164E41E8007E9A76 /* Socket.h */,
+				E6E89810164E41E8007E9A76 /* Socket.m */,
+			);
+			path = Communication;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6E897D9164E070A007E9A76 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				E6E897DA164E070A007E9A76 /* AsyncSocket.h */,
+				E6E897DB164E070A007E9A76 /* AsyncSocket.m */,
+				E6E897DC164E070A007E9A76 /* AsyncUdpSocket.h */,
+				E6E897DD164E070A007E9A76 /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = SOURCE_ROOT;
+		};
+		E6E897EB164E0B7D007E9A76 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E6E897EC164E0B9A007E9A76 /* MotorViewController.h */,
+				E6E897ED164E0B9A007E9A76 /* MotorViewController.m */,
+				E6E8985F164E7A91007E9A76 /* SenderController.h */,
+				E6E89860164E7A92007E9A76 /* SenderController.m */,
+				E6B5FEA4164F531A00EA5A46 /* VideoController.h */,
+				E6B5FEA5164F531A00EA5A46 /* VideoController.m */,
+				E6B5FEC4164FCAD000EA5A46 /* RobotController.h */,
+				E6B5FEC5164FCAD000EA5A46 /* RobotController.m */,
+			);
+			path = Interface;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B1053A164A0961006C8476 /* Ardunio_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B10559164A0961006C8476 /* Build configuration list for PBXNativeTarget "Ardunio_IOS" */;
+			buildPhases = (
+				E6B10537164A0961006C8476 /* Sources */,
+				E6B10538164A0961006C8476 /* Frameworks */,
+				E6B10539164A0961006C8476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ardunio_IOS;
+			productName = Ardunio_IOS;
+			productReference = E6B1053B164A0961006C8476 /* Ardunio_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B10532164A0961006C8476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LFT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Hiscene;
+			};
+			buildConfigurationList = E6B10535164A0961006C8476 /* Build configuration list for PBXProject "Ardunio_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6B10530164A0961006C8476;
+			productRefGroup = E6B1053C164A0961006C8476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B1053A164A0961006C8476 /* Ardunio_IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B10539164A0961006C8476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B1054A164A0961006C8476 /* InfoPlist.strings in Resources */,
+				E6B10552164A0961006C8476 /* Default.png in Resources */,
+				E6B10554164A0961006C8476 /* Default@2x.png in Resources */,
+				E6B10556164A0961006C8476 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B10537164A0961006C8476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B1054C164A0961006C8476 /* main.m in Sources */,
+				E6B10550164A0961006C8476 /* LFTAppDelegate.m in Sources */,
+				E6B10560164A114B006C8476 /* Data.m in Sources */,
+				E60EDD25164B729C00C490E4 /* MotorController.m in Sources */,
+				E6E897DE164E070A007E9A76 /* AsyncSocket.m in Sources */,
+				E6E897DF164E070A007E9A76 /* AsyncUdpSocket.m in Sources */,
+				E6E897E9164E08B2007E9A76 /* RedparkFlow.m in Sources */,
+				E6E897EE164E0B9A007E9A76 /* MotorViewController.m in Sources */,
+				E6E89811164E41E8007E9A76 /* Socket.m in Sources */,
+				E6E89861164E7A92007E9A76 /* SenderController.m in Sources */,
+				E6B5FE9F164F4F6D00EA5A46 /* Video.m in Sources */,
+				E6B5FEA6164F531A00EA5A46 /* VideoController.m in Sources */,
+				E6B5FEC6164FCAD000EA5A46 /* RobotController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6B10548164A0961006C8476 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B10549164A0961006C8476 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6B10557164A0961006C8476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6B10558164A0961006C8476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B1055A164A0961006C8476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ardunio_IOS/Ardunio_IOS-Prefix.pch";
+				INFOPLIST_FILE = "Ardunio_IOS/Ardunio_IOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RedparkSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6B1055B164A0961006C8476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ardunio_IOS/Ardunio_IOS-Prefix.pch";
+				INFOPLIST_FILE = "Ardunio_IOS/Ardunio_IOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RedparkSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B10535164A0961006C8476 /* Build configuration list for PBXProject "Ardunio_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B10557164A0961006C8476 /* Debug */,
+				E6B10558164A0961006C8476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B10559164A0961006C8476 /* Build configuration list for PBXNativeTarget "Ardunio_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B1055A164A0961006C8476 /* Debug */,
+				E6B1055B164A0961006C8476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6B10532164A0961006C8476 /* Project object */;
+}
